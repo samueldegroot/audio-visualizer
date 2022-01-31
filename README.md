@@ -47,7 +47,8 @@ Connecting Matrix to Pi:
 |              -|  33 |  34 | -
 |              - |  35 |  36 | -
 |              - |  37 |  38 | -
-|                              -   |  39 |  40 | -
+|                              -   |  39 |  40 | - |
+
 Running:
 
-    python3 AudioVisualizer.py
+    sudo python3 audio_visualizer.py
