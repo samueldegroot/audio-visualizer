@@ -1,7 +1,3 @@
-# CSCE 462 Project
-# Audio Visualizer
-# Blake DeGroot and Brandon Namphong
-
 import numpy as np
 import scipy
 import pyaudio
