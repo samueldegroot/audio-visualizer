@@ -1,4 +1,18 @@
 # AudioVisualizer
+Get Pi running in headless mode:
+
+    https://www.windowscentral.com/how-set-headless-raspberry-pi-windows-10
+
+In boot/config.txt
+
+    dtparam=audio=on -> dtparam=audio=off (not optional)
+    remove dtoverlay=w1-gpio (if it exists)
+
+Performance:
+
+    sudo raspi-config
+    System Options -> Boot / Auto Login -> Console Autologin
+
 Dependencies:
 
     sudo pip3 install numpy
