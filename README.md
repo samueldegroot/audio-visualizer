@@ -17,6 +17,7 @@ Dependencies:
 
     sudo pip3 install numpy
     sudo pip3 install scipy
+    ('sudo apt-get install gfortran libopenblas-dev liblapack-dev' first if you can't install scipy)
 	
     sudo apt-get remove libportaudio2
     sudo apt-get install libasound2-dev
